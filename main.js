@@ -33,7 +33,7 @@ function showSpinner() {
 
     }
   catch(error){
-    getQuotes();
+    
     console.log(error);
     hideSpinner();
   }
