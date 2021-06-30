@@ -17,7 +17,7 @@ function showSpinner() {
 //  Get the quotes from API
  async function getQuotes(){
   
-   const apiURL = 'https://zenquotes.io/api/random';
+   const apiURL = 'https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random';
     try{
       showSpinner();
        await fetch(apiURL)
