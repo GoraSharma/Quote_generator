@@ -34,7 +34,8 @@ function showSpinner() {
     }
   catch(error){
     getQuotes();
-    console.log(error)
+    console.log(error);
+    hideSpinner();
   }
 }
 
